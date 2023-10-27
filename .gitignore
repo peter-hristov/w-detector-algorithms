@@ -1,3 +1,6 @@
+double-bfs-detector/bin
+dynamic-detector/bin
+naive-bfs-detector/bin
 
 .cache
 .clangd/
