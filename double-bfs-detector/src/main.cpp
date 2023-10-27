@@ -354,7 +354,7 @@ int main(int argc, char *argv[])
     } // negative microsecond delta
 
 
-    cout << result2.first;
+    cout << "The W-diameter is " << result2.first << endl;
     //printf("%3ld.%06ld\n", nSeconds, nMSeconds);
 
     
