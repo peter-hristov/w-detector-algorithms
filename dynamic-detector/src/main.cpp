@@ -627,7 +627,8 @@ struct timeval endTime;
 
 int main(int argc, char *argv[])
 {
-    auto data = readTreeBinary(argv[1]);
+    //auto data = readTreeBinary(argv[1]);
+    auto data = readTreeSuperBinary(argv[1]);
     auto tree = data.first;
     auto heights = data.second;
 
@@ -670,7 +671,7 @@ int main(int argc, char *argv[])
     } // negative microsecond delta
 
 
-    cout << O[s];
+    cout << "The W-diameter is " << O[s] << endl;
     //printf("%3ld.%06ld\n", nSeconds, nMSeconds);
 
     
